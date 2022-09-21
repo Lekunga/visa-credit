@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.204.199.163:8081/repository/visa-credit-release/</url>
+	      <url>http://18.204.199.163:8081/repository/visa-credit-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
