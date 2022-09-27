@@ -7,6 +7,7 @@ node{
   stage('2Test&Build'){
    sh "${mavenHome}/bin/mvn clean package"
   }
+  /*
   stage('3codeQuality'){
    // sh "${mavenHome}/bin/mvn sonar:sonar"
   }
@@ -25,4 +26,5 @@ stage('6approval'){
 stage('7production-deploy'){
   deploy adapters: [tomcat8(credentialsId: 'tomcat-credentials', path: '', url: 'http://44.201.185.151:8080')], contextPath: null, war: 'target/*.war' 
 }
+*/
 }
